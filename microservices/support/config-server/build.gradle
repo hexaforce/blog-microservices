@@ -1,7 +1,7 @@
 buildscript {
     ext {
-        springBootVersion = '2.0.0.M3'
-        springCloudVersion = 'Finchley.M2'
+        springBootVersion = '2.0.1.RELEASE'
+        springCloudVersion = 'Finchley.M9'
     }
     repositories {
         mavenCentral()
@@ -61,5 +61,5 @@ eclipse {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '3.5.1'
+    gradleVersion = '4.5.1'
 }
